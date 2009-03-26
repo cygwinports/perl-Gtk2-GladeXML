@@ -3,22 +3,23 @@ perl-Gtk2-GladeXML
 This package adds perl support for Glade 2.x to Gtk2-Perl.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  glib2-2.16.5-1
-  gtk2-x11-2.12.11-1
-  libglade2-2.6.3-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libglade2.0_0-2.6.4-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
   perl-5.10.0-5
-  perl-Glib-1.183-1
-  perl-Gtk2-1.183-1
+  perl-Glib-1.220-1
+  perl-Gtk2-1.220-1
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-2008624-2
-  cygport-0.4.0-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
   perl-ExtUtils-Depends-0.301-1
-  perl-ExtUtils-PkgConfig-1.11-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -29,15 +30,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gtk2-GladeXML-1.007-1-src.tar.bz2
+  unpack perl-Gtk2-GladeXML-1.007-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gtk2-GladeXML-1.007-1.cygport all
+  cygport ./perl-Gtk2-GladeXML-1.007-X.cygport all
 
 This will create:
-  /usr/src/perl-Gtk2-GladeXML-1.007-1-src.tar.bz2
-  /usr/src/perl-Gtk2-GladeXML-1.007-1.tar.bz2
+  /usr/src/perl-Gtk2-GladeXML-1.007-X-src.tar.bz2
+  /usr/src/perl-Gtk2-GladeXML-1.007-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,41 +50,20 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/GladeXML/Install/gladexmlperl.typemap
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/GladeXML/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/GladeXML/GladeXML.dll
-  /usr/share/doc/perl-Gtk2-GladeXML-1.007/AUTHORS
-  /usr/share/doc/perl-Gtk2-GladeXML-1.007/ChangeLog
-  /usr/share/doc/perl-Gtk2-GladeXML-1.007/LICENSE
-  /usr/share/doc/perl-Gtk2-GladeXML-1.007/NEWS
-  /usr/share/doc/perl-Gtk2-GladeXML-1.007/README
+  /usr/share/doc/perl-Gtk2-GladeXML/AUTHORS
+  /usr/share/doc/perl-Gtk2-GladeXML/ChangeLog
+  /usr/share/doc/perl-Gtk2-GladeXML/LICENSE
+  /usr/share/doc/perl-Gtk2-GladeXML/NEWS
+  /usr/share/doc/perl-Gtk2-GladeXML/README
   /usr/share/man/man3/Gtk2.GladeXML.3pm.gz
 
 ------------------
 
 Port Notes:
 
------ version 1.007-1 -----
-Version bump.
-
------ version 1.006-1 -----
-Version bump, built for perl-5.10.
-
------ version 1.005-1 -----
-New upstream release, built against perl-5.8.7 with --enable-auto-image-base.
-
------ version 1.004-1 -----
-New upstream release, built against perl-5.8.6 with a new build script.
-
------ version 1.001-1 -----
-Upstream bugfix release.  Changes:
-* Fixed a bug that resulted in all signals being connected with
-  signal_connect_after.  The scribble example works now.
-* Lots of new tests.
-* Documentation and example code improvements.
-
------ version 1.00-2 -----
-Rebuilt for perl-5.8.5.
-
------ version 1.00-1 -----
-Initial release for Cygwin.
+----- version 1.007-10 -----
+Initial release for Cygwin 1.7.
 
 
-Cygwin port maintained by:  http://sourceware.org/cygwinports/
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
