@@ -1,4 +1,0 @@
-category: Perl Gnome
-requires: libgcc1 libglib2.0_0 libgtk2.0_0 libglade2.0_0 perl perl-Glib perl-Gtk2
-sdesc: "Perl bindings for libglade-2.0"
-ldesc: "This package adds perl support for Glade 2.x to Gtk2-Perl."
