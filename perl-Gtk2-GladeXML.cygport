@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Gtk2-GladeXML"
 VERSION=1.007
-RELEASE=12
+RELEASE=13
 CATEGORY="Perl"
 SUMMARY="Perl bindings for libglade-2.0"
 DESCRIPTION="This package adds perl support for Glade 2.x to Gtk2-Perl."
